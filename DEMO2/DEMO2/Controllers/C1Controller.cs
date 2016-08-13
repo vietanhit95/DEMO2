@@ -14,7 +14,11 @@ namespace DEMO2.Controllers
         {
             return View();
         }
-        public ActionResult Detail()
+        public ActionResult Detail(int id)
+        {
+            return View();
+        }
+        public ActionResult MiuMiu()
         {
             return View();
         }
